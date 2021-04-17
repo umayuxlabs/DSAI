@@ -27,3 +27,5 @@ RUN pip install pdoc3
 
 RUN curl https://raw.githubusercontent.com/automl/auto-sklearn/master/requirements.txt | xargs -n 1 -L 1 pip install
 RUN pip install auto-sklearn
+
+# UmayuxLabs
