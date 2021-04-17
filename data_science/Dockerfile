@@ -1,7 +1,10 @@
 FROM tensorflow/tensorflow:2.4.1-gpu-jupyter
 
+# Image with data science tools - UmayuxLabs
+
 RUN pip install jupyterlab==3.0.14
 RUN pip install aquirdturtle_collapsible_headings
+
 
 RUN pip install --upgrade pip 
 RUN pip install pandas --upgrade
